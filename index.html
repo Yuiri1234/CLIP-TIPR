@@ -6,11 +6,11 @@
   
   <!-- Primary Meta Tags -->
   <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="Low-Latency Privacy-Aware Robot Behavior guided by Automatically Generated Text Datasets">
+  <meta name="title" content="Low-Latency Privacy-Aware Robot Behavior guided by Automatically Generated Text Datasets - Yuta Irisawa, Tomoaki Yamazaki, Seiya Ito, Shuhei Kurita, Ryota Akasaka, Masaki Onishi, Kouzou Ohara, Ken Sakurada">
   <!-- TODO: Write a compelling 150-160 character description of your research -->
   <meta name="description" content="Humans typically avert their gaze when faced with situations involving another person's privacy, and humanoid robots should exhibit similar behaviors. Various approaches exist for privacy recognition, including an image privacy recognition model and a Large Vision-Language Model (LVLM). The former relies on datasets of labeled images, which raise ethical concerns, while the latter requires more time to recognize images accurately, making real-time responses difficult. To this end, we propose a method of automatically constructing the LLM Privacy Text Dataset (LPT Dataset), a privacy-related text dataset with privacy indicators, and a method of recognizing whether observing a scene violates privacy without ethically sensitive training images. In constructing the LPT Dataset, which consists of both private and public scenes, we use an LLM to define privacy indicators and generate texts scored for each indicator. Our model recognizes whether a given image is private or public by retrieving texts with privacy scores similar to the image in a multi-modal feature space. In our experiments, we evaluated the performance of our model on three image privacy datasets and a realistic experiment with a humanoid robot in terms of accuracy and responsibility. The experiments show that our approach identifies the private image as accurately as the highly tuned LVLM without delay.">
   <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="Privacy-Preserving Robotics, Privacy Image Recognition, Dataset Construction, LLM, Computer Vision">
+  <meta name="keywords" content="Privacy-Preserving Robotics, Privacy Image Recognition, Dataset Construction, Large Language Model (LLM), Vision Language Model (VLM), Computer Vision">
   <!-- TODO: List all authors -->
   <meta name="author" content="Yuta Irisawa, Tomoaki Yamazaki, Seiya Ito, Shuhei Kurita, Ryota Akasaka, Masaki Onishi, Kouzou Ohara, Ken Sakurada">
   <meta name="robots" content="index, follow">
@@ -52,7 +52,7 @@
 
 
   <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
+  <title>Low-Latency Privacy-Aware Robot Behavior guided by Automatically Generated Text Datasets - Yuta Irisawa, Tomoaki Yamazaki, Seiya Ito, Shuhei Kurita, Ryota Akasaka, Masaki Onishi, Kouzou Ohara, Ken Sakurada | Academic Research</title>
   
   <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
@@ -92,67 +92,84 @@
   {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "headline": "Low-Latency Privacy-Aware Robot Behavior guided by Automatically Generated Text Datasets",
+    "description": "Humans typically avert their gaze when faced with situations involving another person's privacy, and humanoid robots should exhibit similar behaviors. Various approaches exist for privacy recognition, including an image privacy recognition model and a Large Vision-Language Model (LVLM). The former relies on datasets of labeled images, which raise ethical concerns, while the latter requires more time to recognize images accurately, making real-time responses difficult. To this end, we propose a method of automatically constructing the LLM Privacy Text Dataset (LPT Dataset), a privacy-related text dataset with privacy indicators, and a method of recognizing whether observing a scene violates privacy without ethically sensitive training images. In constructing the LPT Dataset, which consists of both private and public scenes, we use an LLM to define privacy indicators and generate texts scored for each indicator. Our model recognizes whether a given image is private or public by retrieving texts with privacy scores similar to the image in a multi-modal feature space. In our experiments, we evaluated the performance of our model on three image privacy datasets and a realistic experiment with a humanoid robot in terms of accuracy and responsibility. The experiments show that our approach identifies the private image as accurately as the highly tuned LVLM without delay.",
     "author": [
       {
         "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
+        "name": "Yuta Irisawa",
         "affiliation": {
           "@type": "Organization",
-          "name": "INSTITUTION_NAME"
+          "name": "Aoyama Gakuin University, National Institute of Advanced Industrial Science and Technology (AIST)"
         }
       },
       {
         "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
+        "name": "Tomoaki Yamazaki",
         "affiliation": {
           "@type": "Organization",
-          "name": "INSTITUTION_NAME"
+          "name": "Aoyama Gakuin University"
         }
-      }
+      },
+      {
+        "@type": "Person",
+        "name": "Seiya Ito",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "National Institute of Information and Communications Technology (NICT)"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Ryota Akasaka",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Osaka University"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Masaki Onishi",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "National Institute of Advanced Industrial Science and Technology (AIST)"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Shuhei Kurita",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "National Institute of Informatics (NII)"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Kouzou Ohara",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Aoyama Gakuin University"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Ken Sakurada",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Kyoto University"
+        }
+      },
     ],
-    "datePublished": "2024-01-01",
+    "datePublished": "2025-10-23",
     "publisher": {
       "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
+      "name": "The 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025) "
     },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
+    "keywords": ["Privacy-Preserving Robotics", "Privacy Image Recognition", "Dataset Construction", "Large Language Model (LLM)", "Vision Language Model (VLM)", "Computer Vision"],
+    "abstract": "Humans typically avert their gaze when faced with situations involving another person's privacy, and humanoid robots should exhibit similar behaviors. Various approaches exist for privacy recognition, including an image privacy recognition model and a Large Vision-Language Model (LVLM). The former relies on datasets of labeled images, which raise ethical concerns, while the latter requires more time to recognize images accurately, making real-time responses difficult. To this end, we propose a method of automatically constructing the LLM Privacy Text Dataset (LPT Dataset), a privacy-related text dataset with privacy indicators, and a method of recognizing whether observing a scene violates privacy without ethically sensitive training images. In constructing the LPT Dataset, which consists of both private and public scenes, we use an LLM to define privacy indicators and generate texts scored for each indicator. Our model recognizes whether a given image is private or public by retrieving texts with privacy scores similar to the image in a multi-modal feature space. In our experiments, we evaluated the performance of our model on three image privacy datasets and a realistic experiment with a humanoid robot in terms of accuracy and responsibility. The experiments show that our approach identifies the private image as accurately as the highly tuned LVLM without delay.",
     "citation": "BIBTEX_CITATION_HERE",
     "isAccessibleForFree": true,
     "license": "https://creativecommons.org/licenses/by/4.0/",
-    "mainEntity": {
-      "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
-    },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
-      },
-      {
-        "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
-      }
-    ]
-  }
-  </script>
-  
-  <!-- Website/Organization Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
-    "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
-    ]
   }
   </script>
 </head>

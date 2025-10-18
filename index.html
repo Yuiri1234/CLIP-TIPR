@@ -284,8 +284,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
+            Humans typically avert their gaze when faced with situations involving another person's privacy, and humanoid robots should exhibit similar behaviors. Various approaches exist for privacy recognition, including an image privacy recognition model and a Large Vision-Language Model (LVLM). The former relies on datasets of labeled images, which raise ethical concerns, while the latter requires more time to recognize images accurately, making real-time responses difficult. To this end, we propose a method of automatically constructing the LLM Privacy Text Dataset (LPT Dataset), a privacy-related text dataset with privacy indicators, and a method of recognizing whether observing a scene violates privacy without ethically sensitive training images. In constructing the LPT Dataset, which consists of both private and public scenes, we use an LLM to define privacy indicators and generate texts scored for each indicator. Our model recognizes whether a given image is private or public by retrieving texts with privacy scores similar to the image in a multi-modal feature space. In our experiments, we evaluated the performance of our model on three image privacy datasets and a realistic experiment with a humanoid robot in terms of accuracy and responsibility. The experiments show that our approach identifies the private image as accurately as the highly tuned LVLM without delay.
         </div>
       </div>
     </div>
@@ -342,13 +341,13 @@
   <div class="hero-body">
     <div class="container">
       <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
+      <h2 class="title is-3">Video Presentation (IROS Supplement) </h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
           <div class="publication-video">
             <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/watch?v=rR9-Z8RhYtQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -356,46 +355,7 @@
   </div>
 </section>
 <!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
+    
 <!-- Paper poster -->
 <section class="hero is-small is-light">
   <div class="hero-body">
@@ -403,7 +363,7 @@
       <h2 class="title">Poster</h2>
 
       <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+      <iframe  src="static/pdfs/poster.pdf" width="100%" height="550">
           </iframe>
         
       </div>
@@ -423,13 +383,12 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
-}</code></pre>
+      <pre id="bibtex-code"><code>@inproceedings{zhou2023inf,
+    author    = {Yuta, Irisawa and Tomoaki, Yamazaki and Seiya, Ito and Shuhei, Kurita and Ryota, Akasaka and Masaki, Onishi and Kouzou, Ohara and Ken, Sakurada},
+    title     = {Low-Latency Privacy-Aware Robot Behavior guided by Automatically Generated Text Datasets},
+    journal   = {IROS},
+    year      = {2025}
+    }</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->

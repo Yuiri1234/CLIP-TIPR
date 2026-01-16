@@ -1,4 +1,6 @@
-# Low-Latency Privacy-Aware Robot Behavior Guided by Automatically Generated Text Datasets
+# Low-Latency Privacy-Aware Robot Behavior Guided by Automatically Generated Text Datasets 
+To realize an image privacy recognition model using only textual data with privacy indicators, it is crucial to effectively link the privacy context of a given image with private scenes described in texts. 
+To this end, we propose CLIP-driven Text-based Image Privacy Recognition (CLIP-TIPR), a retrieval-based image privacy recognition model that identifies texts with privacy scores similar to the image in the CLIP's multi-modal feature space.
 project page: https://yuiri1234.github.io/CLIP-TIPR/
 ```
 @inproceedings{Irisawa2025,

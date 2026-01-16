@@ -1,4 +1,5 @@
-# CLIP-TIPR project page
+# Low-Latency Privacy-Aware Robot Behavior Guided by Automatically Generated Text Datasets
+project page: https://yuiri1234.github.io/CLIP-TIPR/
 ```
 @inproceedings{Irisawa2025,
     author    = {Yuta, Irisawa and Tomoaki, Yamazaki and Seiya, Ito and Shuhei, Kurita and Ryota, Akasaka and Masaki, Onishi and Kouzou, Ohara and Ken, Sakurada},

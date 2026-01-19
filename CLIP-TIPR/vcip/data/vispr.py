@@ -337,7 +337,7 @@ def create_csvfile(input_dir, output_csv, multi_label=False):
         csv_writer.writerow(csv_header)
         csv_writer.writerows(csv_data)
 
-    print(f"CSVファイル {output_csv} が作成されました。")
+    print(f"The CSV file, {output_csv}, is cleated.")
 
 
 if __name__ == "__main__":
